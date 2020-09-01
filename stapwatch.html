@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+
+</head>
+<body>
+
+         <nav class="navbar navbar-dark bg-dark">
+             <a href="#" class="navbar-brand">JS Stop Watch</a>
+         </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h3>Stop Watch</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="display-1">
+	                        <span id="minutes">00</span> :
+	                        <span id="seconds">00</span> :
+	                        <span id="m-seconds">00</span> 
+                        </h4>
+                        <button class="btn btn-success" id="start-btn">Start</button>
+                        <button class="btn btn-danger" id="stop-btn">Stop</button>
+                        <button class="btn btn-warning" id="reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
